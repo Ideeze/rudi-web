@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="zxx">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Rudimentary Alternative</title>
+    <link rel="icon" href="img/rfav.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .client_review .client_img:after {
+            background: #0e1c36
+    }
+    .dropdown .dropdown-menu , .dropdown .dropdown-menu .dropdown-item{
+        background: #28113c;
+    }
+    .feature_part .single_feature_part{
+        border: 1px solid #31a3de;
+        background: #ddf3fe
+    }
+    .client_review .owl-nav button.owl-prev, .client_review .owl-nav button.owl-next {
+        border: 1px solid #1d5f82;
+    color: #1d5f82;
+    }
+    .client_review .owl-nav button.owl-prev i, .client_review .owl-nav button.owl-next i {
+    color: #1d5f82;
+    }
+    </style>
+</head>
+
+<body>
+    <!--::header part start::-->
+    <header class="main_menu home_menu">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="index.html"> <img src="img/rlogo.png" alt="logo"> </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="menu_icon"><i class="fas fa-bars"></i></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a style="color: #28113c"class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a style="color: #28113c"class="nav-link" href="about.html">about</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a style="color: #28113c"class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_1"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        product
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown_1">
+                                        <a class="dropdown-item" href="product_list.html"> Giftbox of Books</a>
+                                        <!-- <a class="dropdown-item" href="single-product.html">product details</a> -->
+                                        
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a style="color: #28113c"class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_3"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Services
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
+                                        <a class="dropdown-item" href="login.html"> 
+                                            Consulting Services
+                                            
+                                        </a>
+                                        <a class="dropdown-item" href="checkout.html">Consulting process</a>
+                                        <a class="dropdown-item" href="cart.html">Handcrafted book production</a> 
+                                        <!-- <a class="dropdown-item" href="confirmation.html">confirmation</a> -->
+                                        <!-- <a class="dropdown-item" href="elements.html">elements</a> -->
+                                    </div>
+                                </li>
+                                
+                                <li class="nav-item dropdown">
+                                    <a style="color: #28113c"class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_2"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        blog
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
+                                        <a class="dropdown-item" href="blog.html">Creative thoughts</a>
+                                        <a class="dropdown-item" href="single-blog.html">Blog</a>
+                                    </div>
+                                </li>
+                                
+                                <li class="nav-item">
+                                    <a style="color: #28113c"class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="hearer_icon d-flex align-items-center">
+                            <a id="search_1" href="javascript:void(0)"><i class="ti-search"></i></a>
+                            <!-- <a href="cart.html"> -->
+                                <!-- <i class="flaticon-shopping-cart-black-shape"></i> -->
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="search_input" id="search_input_box">
+            <div class="container ">
+                <form class="d-flex justify-content-between search-inner">
+                    <input type="text" class="form-control" id="search_input" placeholder="Search Here">
+                    <button type="submit" class="btn"></button>
+                    <span class="ti-close" id="close_search" title="Close Search"></span>
+                </form>
+            </div>
+        </div>
+    </header>
+    <!-- Header part end-->
+
+    <!-- breadcrumb part start-->
+    <section style="background: #28113c"class="breadcrumb_part">
+        <img src="img/research.png" alt="#" class="img-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb_iner">
+                        <h2 style="color: #9a0871">Our Services</h2>
+                        <p style="color: #ffff">We research and ideate to provide content for you in the areas of planning, development, management & social impact.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+<section class="feature_part section_padding">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-6">
+                    <div class="feature_part_tittle">
+                        <!-- <h5 style="color: #1d5f82">Rudimentary Alternative makes it easy to</h5> -->
+                      <!-- <h1 style="color: #9a0871">Dream it, and build it.</h1> -->
+                          
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="feature_part_content">
+                        <!-- <p style="color: #1d5f82">Our solutions are designed for every stage of idea development, from planning, to creation, production, distribution, & management of your ideas.</p> -->
+                        <!-- <p style="color: #1d5f82">We ensure that every idea's vision, mission & objectives are sustainably achieved.</p> -->
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single_feature_part">
+                        <img src="img/blueprint.svg" alt="#">
+                        <h5 style="color: #9a0871">Idea Architecture</h5>
+                        <h6> <a style="color: #1d5f82"href="single-product.html">Idea architecture is a neccessary first step for every idea. we provide the content to flesh out your idea, we plan out the objectives, goals, resources & tools that your idea will need for each stage of its development. our tools include:
+                                        
+                                      </a> </h6>
+
+                                      <p style="color: #ea1ab0">1.Idea breakdown: Market research & SWOT analysis.</p>
+                                      <p style="color: #ea1ab0">2.Idea starter kit: TO-DO list, resources & tools.</p>
+                                      <p style="color: #ea1ab0">3.Idea review of your existing information.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single_feature_part">
+                        <img src="img/brainstorming.svg" alt="#">
+                        <h5 style="color: #9a0871">Design thinking content</h5>
+                        <h6> <a style="color: #1d5f82"href="single-product.html">We work with you as consultants or within your organization as intrapreneurs to design-think on your problem space and propose feasible solutions. Our tools include:                                        
+                                      </a> </h6>
+
+                                      <p style="color: #ea1ab0">1.Problem space analysis.</p>
+                                      <p style="color: #ea1ab0">2.Idea consolidation & prioritization analysis.</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single_feature_part">
+                        <img src="img/pitch.svg" alt="#">
+                        <h5 style="color: #9a0871">Idea content specification</h5>
+                        <h6> <a style="color: #1d5f82"href="single-product.html">We organize your ideas into content that helps you better communicate and pitch your vision to the public. our tools include:
+                                        
+                                      </a> </h6>
+
+                                      <p style="color: #ea1ab0">1.Creative writing for: Blogs, books, articles, animation storyboards.</p>
+                                      <p style="color: #ea1ab0">2.App wireframes & user flow specification.</p>
+                                      <p style="color: #ea1ab0">3.Business plan writting & presentation content.</p>
+                                      <p style="color: #ea1ab0">4.Website content.</p>
+                                      <p style="color: #ea1ab0">5.Social media Content calender.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single_feature_part">
+                        <img src="img/briefcase.svg" alt="#">
+                        <h5 style="color: #9a0871">Business development consultant</h5>
+                        <h6> <a style="color: #1d5f82"href="single-product.html">We help startups & existing businesses develop and meet their idea or business objectives. We brainstorm on their business model, product type or service delivery method to find the content that works best for their idea or business.
+                                        
+                                      </a> </h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single_feature_part">
+                        <img src="img/stationery.svg" alt="#">
+                        <h5 style="color: #9a0871">Branding & interaction design</h5>
+                        <h6> <a style="color: #1d5f82"href="single-product.html">Together with our clients, we work on how their ideas for a business, product & service will be represented. By understanding their purpose, passion, mission, vision, and what problem space they intend to explore; we help create a unique brand experience that will meet their objectives. our tools include:
+                                        
+                                      </a> </h6>
+
+                                      <p style="color: #ea1ab0">1.Brand guideline proposal.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single_feature_part">
+                        <img src="img/management.svg" alt="#">
+                        <h5 style="color: #9a0871">Idea marketing & management services</h5>
+                         <h6> <a style="color: #1d5f82"href="single-product.html">We help structure a sustainable plan for your business, project, physical product & app idea's adoption into the market. We also access the success of your existing marketing efforts & propose relevant alternatives to improve & manage your performance. our tools include:
+                                        
+                                      </a> </h6>
+
+                                       <p style="color: #ea1ab0">1.Idea marketing content: Go-to-market strategy, product & service roadmap, buyers journey structure.</p>
+                                      <p style="color: #ea1ab0">2.Idea marketing re-evaluation.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single_feature_part">
+                        <img src="img/avatars.svg" alt="#">
+                        <h5 style="color: #9a0871">Social impact development & management</h5>
+                        <h6> <a style="color: #1d5f82"href="single-product.html">As social entrepreneurs We ideate & propose social impact ideas that match ur personal or business ethos to ensure a positive & sustainable social footprint for you and your business. our tools include:
+                                        
+                                      </a> </h6>
+
+                                      <p style="color: #ea1ab0">1.Personal social impact Project/initiative proposal </p>
+                                      <p style="color: #ea1ab0">2.Corporate social impact Project/initiative proposal </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    
+
+        
+
+          
+                                    <!-- <a style="border: 1px solid #31a3de;color: #000000" href="product_list.html" class="btn_3">Find out more</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+<section style="background: #28113c"class="breadcrumb_part">
+        <!-- <img src="img/discuss.png" alt="#" class="img-fluid"> -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb_iner">
+                        <!-- <h5 style="color: #9a0871">About us</h5> -->
+                        <h4 style="color: #9a0871">Our service brochure</h4>
+                                    <!-- <h3> <a style="color: #ffff"href="single-product.html">Our range of services cover; planning, development, management & Social impact. -->
+                                        
+                                      </a> </h3>
+                                      <a style="border: 1px solid #9a0871;color: #ffff" href="https://www.canva.com/design/DAD7ej9yat0/XgCm2xz9BDoZbfP_hQUqhg/view?utm_content=DAD7ej9yat0&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" class="btn_3">view</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+        
+
+                    
+
+
+          
+
+
+
+
+          
+                    
+
+          
+
+                    
+
+
+          
+
+                    
+
+
+          
+
+
+                    
+    <!-- <section class="breadcrumb_part"> -->
+        <!-- <div class="container"> -->
+            <!-- <div class="row"> -->
+                <!-- <div class="col-lg-12"> -->
+                    <!-- <div class="breadcrumb_iner"> -->
+                        <!-- <h2>login</h2> -->
+                    <!-- </div> -->
+                <!-- </div> -->
+            <!-- </div> -->
+        <!-- </div> -->
+    <!-- </section> -->
+    <!-- breadcrumb part end-->
+
+    <!--================login_part Area =================-->
+    <section class="login_part section_padding ">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-md-4">
+                    <div style="background: #28113c"class="login_part_text text-center">
+                        <div class="login_part_text_iner">
+                            <h2>Do you have an idea?</h2>
+                            <p>Fill out our idea evaluation form to help us understand your idea</p>
+                            <a href="https://forms.gle/hGTK6JvYEsSyRzwDA" class="btn_3">Get started</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-6 col-md-6"> -->
+                    <!-- <div class="login_part_form"> -->
+                        <!-- <div class="login_part_form_iner"> -->
+                            <!-- <h3>Welcome Back ! <br> -->
+                                <!-- Please Sign in now</h3> -->
+                            <!-- <form class="row contact_form" action="#" method="post" novalidate="novalidate"> -->
+                                <!-- <div class="col-md-12 form-group p_star"> -->
+                                    <!-- <input type="text" class="form-control" id="name" name="name" value="" -->
+                                        <!-- placeholder="Username"> -->
+                                <!-- </div> -->
+                                <!-- <div class="col-md-12 form-group p_star"> -->
+                                    <!-- <input type="password" class="form-control" id="password" name="password" value="" -->
+                                        <!-- placeholder="Password"> -->
+                                <!-- </div> -->
+                                <!-- <div class="col-md-12 form-group"> -->
+                                    <!-- <div class="creat_account d-flex align-items-center"> -->
+                                        <!-- <input type="checkbox" id="f-option" name="selector"> -->
+                                        <!-- <label for="f-option">Remember me</label> -->
+                                    <!-- </div> -->
+                                    <!-- <button type="submit" value="submit" class="btn_3"> -->
+                                        <!-- log in -->
+                                    <!-- </button> -->
+                                    <!-- <a class="lost_pass" href="#">forget password?</a> -->
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="banner_img">
+        <div class="section_tittle text-center">
+        
+            <!-- <img src="img/waver.png" alt="#" class="img-fluid"> -->
+            <div class="section_tittle text-center">
+                <h3 style="color: #9a0871">How we work</h3>
+                <p style="color: #1d5f82">It takes 3 simple stages to get you working with us, the idea evaluation stage, the solution proposal stage and finally a one-on-one consultation. </p>
+                <div style="color: #28113c"class="load_more_btn text-center">
+                            <a style="color: #28113c"href="checkout.html" class="btn_3">Find out More</a>
+                            
+                        </div>
+            <!-- <img src="img/banner_pattern.png " alt="#" class="pattern_img img-fluid"> -->
+            
+
+
+        </div>
+
+
+
+
+
+
+    <!--================login_part end =================-->
+
+    <!--::footer_part start::-->
+    <footer class="footer_part">
+        <div class="footer_iner section_bg">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-9">
+                        <div class="footer_menu">
+                            <div class="footer_logo">
+                                <a href="index.html"><img src="img/rlogo.png" alt="#"></a>
+                            </div>
+                            <div class="footer_menu_item">
+                                <a style="color: #28223c"href="index.html">Home</a>
+                                <a style="color: #28223c"href="about.html">About</a>
+                                <a style="color: #28223c"href="product_list.html">Products</a>
+                                <a style="color: #28223c"href="#">Services</a>
+                                <a style="color: #28223c"href="blog.html">Blog</a>
+                                <a style="color: #28223c"href="contact.html">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-1">
+                        <div class="social_icon">
+                            <a style="background: #9a0871"href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a style="background: #9a0871"href="#"><i class="fab fa-instagram"></i></a>
+                            <a style="background: #9a0871"href="#"><i class="fab fa-google-plus-g"></i></a>
+                            <a style="background: #9a0871"href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div style="background: #28113c"class="copyright_part">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-12">
+                        <div class="copyright_text">
+                            <P style="color: #ffff"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Rudimentary Alternative All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a style="color: #ffff"href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></P>
+                            <div class="copyright_link">
+                                <a style="color: #ffff"href="#">Creating content for ideas</a>
+                                <!-- <a style="color: #ffff"href="#">FAQs</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--::footer_part end::-->
+
+    <!-- jquery plugins here-->
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- easing js -->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <!-- swiper js -->
+    <script src="js/swiper.min.js"></script>
+    <!-- swiper js -->
+    <script src="js/mixitup.min.js"></script>
+    <!-- particles js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <!-- slick js -->
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+</body>
+    
+</html>
