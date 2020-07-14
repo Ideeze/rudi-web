@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec04e150-a48a-4dfc-8472-b662240ee8de" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/FirebaseDeployment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/FirebaseDeployment.yml" afterDir="false" />
-    </list>
+    <list default="true" id="ec04e150-a48a-4dfc-8472-b662240ee8de" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +43,7 @@
       <workItem from="1594062994195" duration="96000" />
       <workItem from="1594122325006" duration="8460000" />
       <workItem from="1594312777424" duration="2475000" />
-      <workItem from="1594318602492" duration="269000" />
+      <workItem from="1594318602492" duration="1107000" />
     </task>
     <servers />
   </component>
