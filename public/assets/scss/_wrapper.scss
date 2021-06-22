@@ -1,0 +1,360 @@
+.container-scroller {
+  .main-panel {
+    background-image: url("../images/bg-img-1.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    .banner-wrapper {
+      padding-top: 49px;
+      padding-bottom: 54px;
+      .scroll-height & {
+        padding-top: 173px;
+      }
+      .banner-head {
+        padding: 53px 0 25px 0;
+        line-height: 1.21;
+      }
+      p {
+        line-height: 1.56;
+      }
+      iframe {
+        height: 560px;
+        border: none;
+      }
+      @media (max-width: 508px) {
+        padding-top: 0;
+        .scroll-height & {
+          padding-top: 112px;
+        }
+        .banner-head {
+          padding: 0px 0 25px 0;
+          line-height: 1.21;
+        }
+      }
+    }
+  }
+  @media (max-width:768px) {
+    .dark-overlay {
+      height: 100%;
+      width: 100%;
+      background-color: $black;
+      opacity: 0;
+      top: 0;
+    .layer-open & {
+      transition: all 1s ease;
+      opacity: .8;
+      position: fixed;
+    }
+    }
+  }
+}
+.text-gray {
+  color: $banner-grey-color;
+}
+.details-wrapper {
+  background-image: url("../images/bg-img-2.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  z-index: 999;
+  .partner-content-wrapper {
+    padding-bottom: 71px;
+    h3 {
+      padding: 0 0 21px 0;
+    }
+    h4 {
+      padding: 0 0 51px 0;
+    }
+    .image-box {
+      padding: 0 45px 0 0;
+      @media (max-width: 320px) {
+        padding: 0 12px 0 0;
+      }
+      @media (max-width: 768px) {
+        padding: 0 0 0 22px;
+      }
+    }
+    @media (max-width: 508px) {
+      padding-bottom: 35px;
+    }
+  }
+  .feature-content-wrapper {
+    padding-top: 55px;
+    padding-bottom: 20px;
+    h3 {
+      padding-bottom: 10px;
+    }
+    .feature-sub-head {
+      padding-bottom: 69px;
+    }
+    @media (max-width: 508px) {
+      padding-top: 35px;
+    }
+  }
+}
+.dashboard-wrapper {
+  padding-top: 114px;
+  background-image: url("../images/bg-img-3.svg");
+  background-position: -160px -39px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  .dashboard-content-wrapper {
+    padding-bottom: 155px;
+    h4 {
+      line-height: 1.56;
+    }
+    @media (max-width: 768px) {
+      padding-bottom: 0;
+    }
+    @media (max-width: 320px) {
+      padding-bottom: 85px;
+    }
+  }
+  @media (max-width: 508px) {
+    padding-top: 35px;
+  }
+}
+.carousel-wrapper {
+  padding-top: 76px;
+  padding-bottom: 71px;
+  padding-left: 9%;
+  .carousel-content-wrapper {
+    border-radius: 6px 40px 6px 6px;
+    width: 415px;
+    box-shadow: 0 4px 15px 0 rgba(7, 42, 68, 0.09);
+    margin-left: 30px;
+    .text-color {
+      color: $text-muted;
+    }
+    &:hover {
+      border-radius: 6px 40px 6px 6px;
+      box-shadow: 0 4px 15px 0 rgba(7, 42, 68, 0.09);
+      background: linear-gradient(to top, #54a5f6, #09068f);
+      transition: background 2s ease;
+      color: $white;
+      .text-color {
+        color: $white;
+      }
+    }
+    position: relative;
+    .carousel-content {
+      padding: 52px 0 42px 79px;
+      cursor: pointer;
+    }
+    .carousel-image {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      position: absolute;
+      top: 35px;
+      left: -28px;
+    }
+  }
+  .carousel-subhead {
+    padding: 15px 0 55px 0;
+    line-height: 1.56;
+    font-weight: 300;
+  }
+  .owl-theme {
+    .owl-dots {
+      margin-left: -120px;
+      .owl-dot {
+        margin-top: 20px;
+        span {
+          border: 1px solid $carousel-border-color;
+          background: none;
+        }
+        &:focus {
+          outline: none;
+        }
+        &:hover,
+        &.active {
+          span {
+            background: $primary;
+            border: none;
+          }
+        }
+      }
+      @media (max-width: 576px) {
+        margin-left: -40px;
+      }
+    }
+  }
+  @media (max-width: 508px) {
+    padding-top: 0px;
+    .carousel-content-wrapper {
+      width: 257px;
+      .carousel-content {
+        padding: 33px 0 42px 56px;
+      }
+    }
+  }
+  @media (max-width: 320px) {
+    .carousel-content-wrapper {
+      .carousel-content {
+        padding: 21px 0 13px 56px;
+      }
+    }
+  }
+}
+.bottom-wrapper {
+  padding-top: 71px;
+  .tab-wrapper {
+    background-image: url("../images/bg-img-4.svg");
+    background-repeat: no-repeat;
+    background-position: -66px 8px;
+    position: relative;
+    .tab-body {
+      padding: 60px 0 80px 0;
+    }
+    .nav-pills {
+      .nav-link {
+        color: $banner-grey-color;
+        border: 1px solid $btn-secondary-color;
+        padding: 14px 25px;
+        &.active {
+          color: $primary;
+          background-color: $btn-secondary-color;
+        }
+      }
+      .nav-border-left {
+        border-radius: 4px 0 0 4px;
+      }
+      .nav-border-right {
+        border-radius: 0 4px 4px 0;
+      }
+    }
+    .tab-title {
+      font-size: 50px;
+      padding: 0 0 19px 0;
+    }
+    .badge {
+      font-size: 12px;
+      padding: 7px 10px;
+      border-radius: 15px;
+    }
+    .card-highlight {
+      border-radius: 8px;
+      box-shadow: 0 4px 15px 0 rgba(7, 42, 68, 0.09);
+      border: solid 1px $custom-border-color;
+    }
+    .card-body {
+      padding-left: 75px;
+      h6 {
+        line-height: 1.5;
+      }
+    }
+    .ribbon {
+      position: absolute;
+      top: -5px;
+      right: 12%;
+      .ribbon-inner {
+        width: 42px;
+        height: 75px;
+        border-radius: 6px 6px 0 0;
+        background-color: $primary;
+        position: relative;
+        p {
+          transform: rotate(90deg);
+          position: absolute;
+          top: 25%;
+          left: 15%;
+          color: $white;
+          font-weight: 400;
+        }
+        .left-line {
+          height: 96%;
+          width: 7px;
+          background-color: $white;
+          position: absolute;
+          left: 0;
+          top: 4px;
+        }
+        .triangle {
+          width: 0;
+          height: 0;
+          border-left: 17px solid transparent;
+          border-right: 17px solid transparent;
+          border-bottom: 16px solid $white;
+          position: absolute;
+          bottom: 0;
+          right: 0;
+        }
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    .tab-wrapper {
+      background-position: -132px 8px;
+    }
+  }
+  @media (max-width: 320px) {
+    .tab-wrapper {
+      background-position: -130px 8px;
+    }
+  }
+}
+.gradient-wrapper {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #f1f8ff);
+  .signup-form-wrapper {
+    padding-top: 20px;
+    .card {
+      border-radius: 8px;
+      box-shadow: 0 4px 15px 0 rgba(7, 42, 68, 0.06);
+      border: solid 1px $custom-border-color;
+      background-color: $white;
+    }
+    .form-text-btn {
+      position: relative;
+      .form-input {
+        width: 374px;
+        height: 50px;
+        padding-left: 27px;
+        border-radius: 25px;
+        border: 1px solid $custom-border-color;
+        @media (max-width: 567px) {
+          width: 100%;
+          margin-top: 10px;
+          height: 30px;
+          display: block;
+          padding-left: 10px;
+        }
+      }
+      .form-btn {
+        border-radius: 25px;
+        position: absolute;
+        height: 50px;
+        right: 13%;
+        top: 0;
+        @media (max-width: 1197px) {
+          right: -3%;
+        }
+        @media (max-width: 991px) {
+          right: 40%;
+        }
+        @media (max-width: 768px) {
+          right: 19%;
+        }
+        @media (max-width: 567px) {
+          position: static;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          margin-left: 21%;
+          margin-top: 10px;
+          padding: 0 22px 0 22px;
+          height: 30px;
+        }
+      }
+      ::placeholder {
+        color: $text-muted;
+        font-size: 14px;
+      }
+      textarea:focus,
+      input:focus {
+        outline: none;
+      }
+    }
+    @media (max-width: 508px) {
+      padding-top: 0px;
+    }
+  }
+}
